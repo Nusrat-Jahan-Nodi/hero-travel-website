@@ -9,7 +9,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    list-style: none;
     text-decoration: none;
 }
 /* header section styles start */
@@ -42,6 +41,7 @@ nav{
     display: flex;
     gap: 30px;
     font-size: 18px;
+    list-style: none;
 }
 .nav_links ul a{
     color: #424247;
@@ -99,12 +99,216 @@ nav{
     background-color: orange;
     transition: 0.5s ease-in-out;
 }
-/* media query */
-@media screen and (max-width: 576px){
-    .nav_links{
-        display: none;
-    }
-    .menu_icon{
-        display: block;
-    }
+/* main section style */
+/* tour section */
+.tour_details h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: #131318;
+}
+.tour_details {
+    color: #5A5A5D;
+}
+.tour_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+    margin-left: 198px;
+    margin-right: 160px;
+}
+/* destination section */
+.destination_section{
+    margin-top: 120px;
+}
+.destination_tittle{
+    text-align: center;
+}
+.destination_tittle h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.destination_tittle p{
+    color: #5A5A5D;
+}
+.destination_img{
+    margin-top: 50px;
+    gap: 20px;
+    margin-left: 200px;  
+}
+/* choose section */
+.choose_section{
+    margin-top: 120px;
+}
+.choose_tittle{
+    text-align: center;
+}
+.choose_tittle h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.card_container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 100px;
+
+}
+.card{
+    height: 284px;
+    width: 573px;
+    padding: 50px;
+    background-color: lightblue;
+    border-radius: 15px;
+}
+.card h1{
+    font-weight: 800;
+}
+.card img{
+    width: 64px;
+    height: 64px;
+}
+/* deals&discount_section */
+.deals_tittle h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.deals_tittle p{
+    color: #131318;
+}
+.deals_container{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.img_details_1{
+    background-image: url(Images/Group\ 39.png);
+    height: 500px;
+    width: 1170px;
+    margin: 30px 175px 20px auto;
+}
+.img_details_1 h3{
+    font-size: 24px;
+    font-weight: 800;
+}
+.img_details_1 ul{
+    list-style: none;
+    display: flex;
+    color: #5A5A5D;
+}
+.price{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+.img_details{
+    margin-bottom: 50px;
+}
+/* lost section */
+.lost_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px 80px 100px;
+    margin-left: 85px;
+    margin-right: 85px;
+}
+.lost_content p{
+    color: #5A5A5D;
+}
+.lost_content h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+.lost_list ul{
+    font-weight: 700;
+    color: #131318;
+}
+/* newsletter */
+.newsletter_content{
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 422px;
+    width: 474px;
+    text-align: left;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.gray_line{
+    border: 1px solid #5A5A5D;
+    width: 80%;
+}
+.input_container{
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.input{
+    width: 80%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 10px;
+    margin-left: 0;
+    background-color: #F3F3F3;
+    border: 1px solid #F3F3F3;
+}
+.newsletter_content h1{
+    font-size: 24px;
+    font-weight: 800;
+}
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    padding: 10px 75px;
+}
+.tag{
+    height: 120px;
+    width: 324px;
+    background-color: #FF5400;
+    color: #fff;
+    font-size: 24px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -150px;
+}
+.tag h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+/* footer section */
+.footer_section{
+    background-color: #F3F3F3;
+    text-align: center;
+    height: 502px;
+    width: 100%;
+}
+.footer_container span{
+    color: #FF5400;
+}
+.footer_container h1{
+    font-size: 32px;
+    font-weight: 800;
+}
+.footer_section p{
+    color: #5A5A5D;
+}
+.footer_container{
+    display: flex;
+    gap: 10px;
+    padding-left: 40%;
+    margin-top: 10%;
+}
+.social_links ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding-left: 43%;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+.line_2{
+   border: 1px solid #5A5A5D;
+   width: 40%;
+   margin-left: 28%;
+   margin-bottom: 6%;
 }
